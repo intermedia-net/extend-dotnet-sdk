@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RunSettingsFilePath>$(MSBuildProjectDirectory)\coverage.runsettings</RunSettingsFilePath>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="AutoFixture" Version="4.17.0" />
+    <PackageReference Include="AutoFixture.Xunit2" Version="4.17.0" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="[16.11.0,17.0)" />
+    <PackageReference Include="Moq" Version="[4.16.1,5.0)" />
+    <PackageReference Include="xunit" Version="[2.4.1,5.0)" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="[2.4.3,3.0)">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ConnectSDK.AddressBook\ConnectSDK.AddressBook.csproj" />
+    <ProjectReference Include="..\ConnectSDK.Analytics\ConnectSDK.Analytics.csproj" />
+    <ProjectReference Include="..\ConnectSDK.Auth\ConnectSDK.Auth.csproj" />
+    <ProjectReference Include="..\ConnectSDK.Meetings\ConnectSDK.Meetings.csproj" />
+    <ProjectReference Include="..\ConnectSDK.Voice\ConnectSDK.Voice.csproj" />
+    <ProjectReference Include="..\ConnectSDK\ConnectSDK.csproj" />
+  </ItemGroup>
+
+</Project>

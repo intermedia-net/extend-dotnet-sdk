@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ConnectSDK.AddressBook\ConnectSDK.AddressBook.csproj" />
+    <ProjectReference Include="..\ConnectSDK.Analytics\ConnectSDK.Analytics.csproj" />
+    <ProjectReference Include="..\ConnectSDK.Auth\ConnectSDK.Auth.csproj" />
+    <ProjectReference Include="..\ConnectSDK\ConnectSDK.csproj" />
+    <ProjectReference Include="..\ConnectSDK.Meetings\ConnectSDK.Meetings.csproj" />
+    <ProjectReference Include="..\ConnectSDK.Voice\ConnectSDK.Voice.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ConnectSDK.Common\ConnectSDK.Common.csproj" Version="[1.1.5,2.0)" />
+  </ItemGroup>
+
+</Project>

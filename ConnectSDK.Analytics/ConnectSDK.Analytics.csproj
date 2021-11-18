@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NuspecFile>Intermedia.NET.SDK.Analytics.nuspec</NuspecFile>
+    <NuspecProperties>version=$(PackageVersion);configuration=$(Configuration)</NuspecProperties>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="System.Text.Json" Version="[5.0.2,6.0)"/>
+    <ProjectReference Include="..\ConnectSDK.Common\ConnectSDK.Common.csproj" Version="[1.1.6,2.0)"/>
+  </ItemGroup>
+</Project>
