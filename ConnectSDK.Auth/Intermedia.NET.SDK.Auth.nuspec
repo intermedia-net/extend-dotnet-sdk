@@ -21,7 +21,7 @@
 				<dependency id="System.Text.Json" version="[5.0.2,6.0.0)" exclude="Build,Analyzers" />
 				<dependency id="System.IdentityModel.Tokens.Jwt" version="[6.13.1,7.0.0)" exclude="Build,Analyzers" />
 				<dependency id="IdentityModel" version="[5.2.0, 6.0.0)" exclude="Build,Analyzers" />
-				<dependency id="Intermedia.NET.SDK.Common" version="[1.1.6,2.0.0)" exclude="Build,Analyzers" />
+				<dependency id="Intermedia.NET.SDK.Common" version="[1.0.1,2.0)" exclude="Build,Analyzers" />
 			</group>
 		</dependencies>
 	</metadata>
