@@ -4,7 +4,7 @@
     <id>Intermedia.NET.SDK.Analytics</id>
     <version>$version$</version>
     <authors>Intermedia</authors>
-    <owners>Intermedia</owners>
+    <owners>IntermediaCloudCommunications</owners>
     <license type="expression">MIT</license>
     <projectUrl>https://www.intermedia.com/integrations/apis</projectUrl>
     <repository type="git" url="https://github.com/intermedia-net/extend-dotnet-sdk"/>

@@ -3,7 +3,7 @@
   <metadata>
     <id>Intermedia.NET.SDK</id>
     <authors>Intermedia</authors>
-    <owners>Intermedia</owners>
+    <owners>IntermediaCloudCommunications</owners>
     <version>$version$</version>
     <license type="expression">MIT</license>
     <projectUrl>https://www.intermedia.com/integrations/apis</projectUrl>
