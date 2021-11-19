@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
   <metadata>
-    <id>Intermedia.NET.SDK.Analytics</id>
+    <id>IntermediaCloudCommunications.NET.SDK.Analytics</id>
     <version>$version$</version>
     <authors>Intermedia</authors>
     <owners>IntermediaCloudCommunications</owners>
@@ -17,7 +17,7 @@ Envision Analytics Platform</description>
     <dependencies>
      <group targetFramework=".NETStandard2.0">
        <dependency id="System.Text.Json" version="[5.0.2,6.0)" exclude="Build,Analyzers" />
-       <dependency id="Intermedia.NET.SDK.Common" version="[1.0.1,2.0)" exclude="Build,Analyzers" />
+       <dependency id="IntermediaCloudCommunications.NET.SDK.Common" version="[1.0.1,2.0)" exclude="Build,Analyzers" />
      </group>
     </dependencies>
   </metadata>

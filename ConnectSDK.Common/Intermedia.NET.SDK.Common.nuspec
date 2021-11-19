@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <package>
   <metadata>
-    <id>Intermedia.NET.SDK.Common</id>
+    <id>IntermediaCloudCommunications.NET.SDK.Common</id>
     <version>$version$</version>
     <authors>Intermedia</authors>
     <owners>IntermediaCloudCommunications</owners>
