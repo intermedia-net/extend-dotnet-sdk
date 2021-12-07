@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
   <metadata>
-    <id>IntermediaCloudCommunications.NET.SDK</id>
+    <id>Intermedia.SDK</id>
     <authors>Intermedia</authors>
-    <owners>IntermediaCloudCommunications</owners>
+    <owners>Intermedia</owners>
     <version>$version$</version>
     <license type="expression">MIT</license>
     <projectUrl>https://www.intermedia.com/integrations/apis</projectUrl>
@@ -15,11 +15,11 @@
     <icon>icon.png</icon>
     <dependencies>
       <group targetFramework=".NETStandard2.0">
-        <dependency id="IntermediaCloudCommunications.NET.SDK.AddressBook" version="[1.0.1,2.0)" exclude="Build,Analyzers" />
-        <dependency id="IntermediaCloudCommunications.NET.SDK.Analytics" version="[1.0.1,2.0)" exclude="Build,Analyzers" />
-        <dependency id="IntermediaCloudCommunications.NET.SDK.Meetings" version="[1.0.1,2.0)" exclude="Build,Analyzers" />
-        <dependency id="IntermediaCloudCommunications.NET.SDK.Voice" version="[1.0.1,2.0)" exclude="Build,Analyzers" />
-        <dependency id="IntermediaCloudCommunications.NET.SDK.Common" version="[1.0.1,2.0)" exclude="Build,Analyzers" />
+        <dependency id="Intermedia.SDK.AddressBook" version="[1.0.1,2.0)" exclude="Build,Analyzers" />
+        <dependency id="Intermedia.SDK.Analytics" version="[1.0.1,2.0)" exclude="Build,Analyzers" />
+        <dependency id="Intermedia.SDK.Meetings" version="[1.0.1,2.0)" exclude="Build,Analyzers" />
+        <dependency id="Intermedia.SDK.Voice" version="[1.0.1,2.0)" exclude="Build,Analyzers" />
+        <dependency id="Intermedia.SDK.Common" version="[1.0.1,2.0)" exclude="Build,Analyzers" />
       </group>
     </dependencies>
     <summary> A summary of your package </summary>

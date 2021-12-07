@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
   <metadata>
-    <id>IntermediaCloudCommunications.NET.SDK.Voice</id>
+    <id>Intermedia.SDK.Voice</id>
     <version>$version$</version>
     <authors>Intermedia</authors>
-    <owners>IntermediaCloudCommunications</owners>
+    <owners>Intermedia</owners>
     <license type="expression">MIT</license>
     <projectUrl>https://www.intermedia.com/integrations/apis</projectUrl>
     <repository type="git" url="https://github.com/intermedia-net/extend-dotnet-sdk"/>
@@ -22,7 +22,7 @@
         <dependency id="Microsoft.Extensions.Logging" version="[5.0.0,6.0.0)" exclude="Build,Analyzers" />
         <dependency id="Microsoft.Extensions.Logging.Console" version="[5.0.0,6.0.0)" exclude="Build,Analyzers" />
         <dependency id="System.Text.Json" version="[5.0.2,6.0.0)" exclude="Build,Analyzers" />
-        <dependency id="IntermediaCloudCommunications.NET.SDK.Common" version="[1.0.1,2.0)" exclude="Build,Analyzers" />
+        <dependency id="Intermedia.SDK.Common" version="[1.0.1,2.0.0)" exclude="Build,Analyzers" />
       </group>
     </dependencies>
   </metadata>

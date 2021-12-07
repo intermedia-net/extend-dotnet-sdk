@@ -3,7 +3,7 @@
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
   <PropertyGroup>
-    <NuspecFile>Intermedia.NET.SDK.Voice.nuspec</NuspecFile>
+    <NuspecFile>Intermedia.SDK.Voice.nuspec</NuspecFile>
     <NuspecProperties>version=$(PackageVersion);configuration=$(Configuration)</NuspecProperties>
   </PropertyGroup>
   <ItemGroup>
@@ -14,6 +14,6 @@
     <PackageReference Include="Microsoft.AspNetCore.SignalR.Client" Version="[5.0.9,6.0.0)" />
     <PackageReference Include="Microsoft.AspNetCore.SignalR.Common" Version="[5.0.9,6.0.0)" />
     <PackageReference Include="Microsoft.AspNetCore.SignalR.Core" Version="[1.1.0,2.0.0)" />
-    <ProjectReference Include="..\ConnectSDK.Common\ConnectSDK.Common.csproj" Version="[1.1.6,2.0)"/>
+    <ProjectReference Include="..\ConnectSDK.Common\ConnectSDK.Common.csproj" Version="[1.0.1,2.0)"/>
   </ItemGroup>
 </Project>

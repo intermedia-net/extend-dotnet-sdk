@@ -30,22 +30,22 @@ The SDK is compiled with .NET Standard 2.0 target. You can use the libraries wit
 
 The SDK consists of several packages, which are available at NuGet.
 
-* Intermedia.NET.SDK.Voice provides a client for [Voice API](https://developer.intermedia.com/api/spec/calling/index.html)
-* Intermedia.NET.SDK.Meetings provides a client for [Meetings API](https://developer.intermedia.com/api/spec/meeting/index.html)
-* Intermedia.NET.SDK.Analytics provides a client for [Analytics API](https://developer.intermedia.com/api/spec/analytics/index.html)
-* Intermedia.NET.SDK.Address Book provides a client for [Address Book API](https://developer.intermedia.com/api/spec/address_book/index.html)
-* Intermedia.NET.SDK provides all functionality
+* Intermedia.SDK.Voice provides a client for [Voice API](https://developer.intermedia.com/api/spec/calling/index.html)
+* Intermedia.SDK.Meetings provides a client for [Meetings API](https://developer.intermedia.com/api/spec/meeting/index.html)
+* Intermedia.SDK.Analytics provides a client for [Analytics API](https://developer.intermedia.com/api/spec/analytics/index.html)
+* Intermedia.SDK.Address Book provides a client for [Address Book API](https://developer.intermedia.com/api/spec/address_book/index.html)
+* Intermedia.SDK provides all functionality
 
 To install the C# client library with the full functionality using NuGet, run the following command from the terminal in your projects directory:
 
 ``` cmd
-dotnet add package Intermedia.NET.SDK
+dotnet add package Intermedia.SDK
 ```
 
 Or run the following command in the Package Manager Console:
 
 ``` cmd
-Install-Package Intermedia.NET.SDK
+Install-Package Intermedia.SDK
 ```
 
 If you prefer to run commands directly from source:
