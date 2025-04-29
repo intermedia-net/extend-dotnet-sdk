@@ -1,13 +1,15 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <TargetFramework>net8.0</TargetFramework>
 	  <NuspecFile>Intermedia.SDK.nuspec</NuspecFile>
 	  <NuspecProperties>version=$(PackageVersion);configuration=$(Configuration)</NuspecProperties>
   </PropertyGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ConnectSDK.AddressBook\ConnectSDK.AddressBook.csproj"/>
-    <ProjectReference Include="..\ConnectSDK.Analytics\ConnectSDK.Analytics.csproj"/>
-    <ProjectReference Include="..\ConnectSDK.Meetings\ConnectSDK.Meetings.csproj"/>
-    <ProjectReference Include="..\ConnectSDK.Voice\ConnectSDK.Voice.csproj"/>
+    
+    <ProjectReference Include="..\ConnectSDK.AddressBook\ConnectSDK.AddressBook.csproj" />
+    <ProjectReference Include="..\ConnectSDK.Analytics\ConnectSDK.Analytics.csproj" />
+    <ProjectReference Include="..\ConnectSDK.Meetings\ConnectSDK.Meetings.csproj" />
+    <ProjectReference Include="..\ConnectSDK.Voice\ConnectSDK.Voice.csproj" />
+    <PackageReference Include="System.Text.Json" Version="9.0.4" />
   </ItemGroup>
 </Project>

@@ -1,6 +1,6 @@
-# Intermedia Extend API SDK for .NET
+# Intermedia Connect SDK for .NET
 ​
-You can use this C# client library to integrate Intermedia Extend API into your application. To do this, you will need an Intermedia account.
+You can use this C# client library to integrate Intermedia APIs into your application. To do this, you will need an Intermedia account.
 Before you start, we recommend that you visit our [Developer Portal](https://developer.intermedia.com/).
 ​
 ## Table of Contents

@@ -7,7 +7,7 @@
     using System.Threading.Tasks;
     using ConnectSDK.Auth.Configurations;
     using ConnectSDK.Common;
-    using IdentityModel.Client;
+    using Duende.IdentityModel.Client;
 
     public class ClientCredentialsTokenProvider : IAuthorizationTokenProvider
     {

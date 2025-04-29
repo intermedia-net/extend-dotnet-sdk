@@ -1,0 +1,7 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+# cli usage: `snyk code test --all-projects`
+# this file specifies exclusions for extend-dotnet-sdk repository
+exclude:
+  global:
+    # The folders excluded contain test code
+    - ConnectSDK.UniteTests/**

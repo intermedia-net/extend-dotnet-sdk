@@ -34,9 +34,6 @@ namespace ConnectSDK.Analytics
             int? accountId = null,
             GetDetailedCallsBody filters = null)
         {
-            if(dateFrom == null){ throw new ArgumentNullException(nameof(dateFrom)); }
-            if(dateTo == null){ throw new ArgumentNullException(nameof(dateTo)); }
-            
             var token = await this.getToken(Constants.AnalyticScopes.ApiServiceAnalyticsMain);
             this.SetToken(token);
 
@@ -83,9 +80,6 @@ namespace ConnectSDK.Analytics
             int? accountId = null,
             GetUserCallsBody getUserCallsBody = null)
         {
-            if(dateFrom == null){ throw new ArgumentNullException(nameof(dateFrom)); }
-            if(dateTo == null){ throw new ArgumentNullException(nameof(dateTo)); }
-            
             var token = await this.getToken(Constants.AnalyticScopes.ApiServiceAnalyticsMain);
             this.SetToken(token);
 
@@ -111,9 +105,6 @@ namespace ConnectSDK.Analytics
             DateTime dateTo,
             int? accountId = null)
         {
-            if(dateFrom == null){ throw new ArgumentNullException(nameof(dateFrom)); }
-            if(dateTo == null){ throw new ArgumentNullException(nameof(dateTo)); }
-            
             var token = await this.getToken(Constants.AnalyticScopes.ApiServiceAnalyticsMain);
             this.SetToken(token);
 
@@ -141,9 +132,6 @@ namespace ConnectSDK.Analytics
             bool? descending = null,
             int? accountId = null)
         {
-            if(dateFrom == null){ throw new ArgumentNullException(nameof(dateFrom)); }
-            if(dateTo == null){ throw new ArgumentNullException(nameof(dateTo)); }
-            
             var token = await this.getToken(Constants.AnalyticScopes.ApiServiceAnalyticsMain);
             this.SetToken(token);
 
@@ -182,8 +170,6 @@ namespace ConnectSDK.Analytics
             bool? descending = null,
             int? accountId = null)
         {
-            if(dateFrom == null){ throw new ArgumentNullException(nameof(dateFrom)); }
-            if(dateTo == null){ throw new ArgumentNullException(nameof(dateTo)); }
             if(filters == null){ throw new ArgumentNullException(nameof(filters)); }
             
             var token = await this.getToken(Constants.AnalyticScopes.ApiServiceAnalyticsMain);
@@ -223,9 +209,6 @@ namespace ConnectSDK.Analytics
             bool? descending = null,
             int? accountId = null)
         {
-            if(dateFrom == null){ throw new ArgumentNullException(nameof(dateFrom)); }
-            if(dateTo == null){ throw new ArgumentNullException(nameof(dateTo)); }
-            
             var token = await this.getToken(Constants.AnalyticScopes.ApiServiceAnalyticsMain);
             this.SetToken(token);
 
@@ -264,8 +247,6 @@ namespace ConnectSDK.Analytics
             bool? descending = null,
             int? accountId = null)
         {
-            if(dateFrom == null){ throw new ArgumentNullException(nameof(dateFrom)); }
-            if(dateTo == null){ throw new ArgumentNullException(nameof(dateTo)); }
             if(filters == null){ throw new ArgumentNullException(nameof(filters)); }
             
             var token = await this.getToken(Constants.AnalyticScopes.ApiServiceAnalyticsMain);
@@ -305,9 +286,6 @@ namespace ConnectSDK.Analytics
             bool? descending = null,
             int? accountId = null)
         {
-            if(dateFrom == null){ throw new ArgumentNullException(nameof(dateFrom)); }
-            if(dateTo == null){ throw new ArgumentNullException(nameof(dateTo)); }
-            
             var token = await this.getToken(Constants.AnalyticScopes.ApiServiceAnalyticsMain);
             this.SetToken(token);
 
@@ -346,8 +324,6 @@ namespace ConnectSDK.Analytics
             bool? descending = null,
             int? accountId = null)
         {
-            if(dateFrom == null){ throw new ArgumentNullException(nameof(dateFrom)); }
-            if(dateTo == null){ throw new ArgumentNullException(nameof(dateTo)); }
             if(filters == null){ throw new ArgumentNullException(nameof(filters)); }
             
             var token = await this.getToken(Constants.AnalyticScopes.ApiServiceAnalyticsMain);
@@ -387,9 +363,6 @@ namespace ConnectSDK.Analytics
             bool? descending = null,
             int? accountId = null)
         {
-            if(dateFrom == null){ throw new ArgumentNullException(nameof(dateFrom)); }
-            if(dateTo == null){ throw new ArgumentNullException(nameof(dateTo)); }
-
             var token = await this.getToken(Constants.AnalyticScopes.ApiServiceAnalyticsMain);
             this.SetToken(token);
 
@@ -428,8 +401,6 @@ namespace ConnectSDK.Analytics
             bool? descending = null,
             int? accountId = null)
         {
-            if(dateFrom == null){ throw new ArgumentNullException(nameof(dateFrom)); }
-            if(dateTo == null){ throw new ArgumentNullException(nameof(dateTo)); }
             if(filters == null){ throw new ArgumentNullException(nameof(filters)); }
             
             var token = await this.getToken(Constants.AnalyticScopes.ApiServiceAnalyticsMain);

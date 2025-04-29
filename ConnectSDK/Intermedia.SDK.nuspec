@@ -10,22 +10,22 @@
     <repository type="git" url="https://github.com/intermedia-net/extend-dotnet-sdk"/>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <description>Unite Extend API SDK for .NET</description>
-    <copyright>Copyright © Intermedia.net, Inc. 1995 — 2021. All Rights Reserved.</copyright>
+    <copyright>Copyright © Intermedia.net, Inc. 1995 — 2025. All Rights Reserved.</copyright>
     <tags>SDK Intermedia Extend </tags>
     <icon>icon.png</icon>
     <dependencies>
-      <group targetFramework=".NETStandard2.0">
-        <dependency id="Intermedia.SDK.AddressBook" version="[1.0.1,2.0)" exclude="Build,Analyzers" />
-        <dependency id="Intermedia.SDK.Analytics" version="[1.0.1,2.0)" exclude="Build,Analyzers" />
-        <dependency id="Intermedia.SDK.Meetings" version="[1.0.1,2.0)" exclude="Build,Analyzers" />
-        <dependency id="Intermedia.SDK.Voice" version="[1.0.1,2.0)" exclude="Build,Analyzers" />
-        <dependency id="Intermedia.SDK.Common" version="[1.0.1,2.0)" exclude="Build,Analyzers" />
+      <group targetFramework="net8.0">
+        <dependency id="Intermedia.SDK.AddressBook" version="[2.0,3.0)" exclude="Build,Analyzers" />
+        <dependency id="Intermedia.SDK.Analytics" version="[2.0,3.0)" exclude="Build,Analyzers" />
+        <dependency id="Intermedia.SDK.Meetings" version="[2.0,3.0)" exclude="Build,Analyzers" />
+        <dependency id="Intermedia.SDK.Voice" version="[2.0,3.0)" exclude="Build,Analyzers" />
+        <dependency id="Intermedia.SDK.Common" version="[2.0,3.0)" exclude="Build,Analyzers" />
       </group>
     </dependencies>
     <summary> A summary of your package </summary>
   </metadata>
   <files>
-    <file src="bin\Debug\netstandard2.0\ConnectSDK.dll" target="lib/netstandard2.0"/>
+    <file src="bin\Debug\net8.0\ConnectSDK.dll" target="lib/net8.0"/>
 	  <file src="..\icon.png" target=""/>
   </files>
 </package>

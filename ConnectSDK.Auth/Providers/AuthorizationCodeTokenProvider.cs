@@ -8,7 +8,7 @@
     using ConnectSDK.Auth.Configurations;
     using ConnectSDK.Auth.Exceptions;
     using ConnectSDK.Common;
-    using IdentityModel.Client;
+    using Duende.IdentityModel.Client;
 
     public class AuthorizationCodeTokenProvider : IAuthorizationTokenProvider
     {

@@ -21,7 +21,7 @@
         }
 
         [Theory]
-        [InlineData("2021-09-24", "2021-09-24")]
+        [InlineData("2025-09-24", "2025-09-24")]
         internal async Task ShouldBeAbleToHandleInputParamExceptionWhenGetDetailedCalls(string dateFrom, string dateTo)
         {
             // Arrange
@@ -44,7 +44,7 @@
         }
 
         [Theory]
-        [InlineData("2021-09-24T09:40:00.000Z", "2021-09-24T11:30:00.000Z")]
+        [InlineData("2025-09-24T09:40:00.000Z", "2025-09-24T11:30:00.000Z")]
         internal async Task ShouldBeAbleToHandleUnauthorizedExceptionWhenGetDetailedCalls(string dateFrom, string dateTo)
         {
             // Arrange
@@ -67,7 +67,7 @@
         }
 
         [Theory]
-        [InlineData("2021-09-24T09:40:00.000Z", "2021-09-24T11:30:00.000Z")]
+        [InlineData("2025-09-24T09:40:00.000Z", "2025-09-24T11:30:00.000Z")]
         internal async Task ShouldBeAbleToHandleForbiddenExceptionWhenGetDetailedCalls(string dateFrom, string dateTo)
         {
             // Arrange
@@ -90,7 +90,7 @@
         }
 
         [Theory]
-        [InlineData("2021-09-24T09:40:00.000Z", "2021-09-24T11:30:00.000Z")]
+        [InlineData("2025-09-24T09:40:00.000Z", "2025-09-24T11:30:00.000Z")]
         internal async Task ShouldBeAbleToHandleInternalFaultExceptionWhenGetDetailedCalls(string dateFrom, string dateTo)
         {
             // Arrange

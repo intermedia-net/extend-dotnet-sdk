@@ -2,19 +2,19 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <TargetFramework>net8.0</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
+    
     <ProjectReference Include="..\ConnectSDK.AddressBook\ConnectSDK.AddressBook.csproj" />
     <ProjectReference Include="..\ConnectSDK.Analytics\ConnectSDK.Analytics.csproj" />
     <ProjectReference Include="..\ConnectSDK.Auth\ConnectSDK.Auth.csproj" />
     <ProjectReference Include="..\ConnectSDK\ConnectSDK.csproj" />
     <ProjectReference Include="..\ConnectSDK.Meetings\ConnectSDK.Meetings.csproj" />
     <ProjectReference Include="..\ConnectSDK.Voice\ConnectSDK.Voice.csproj" />
+    <PackageReference Include="System.Text.Json" Version="9.0.4" />
+    <ProjectReference Include="..\ConnectSDK.Common\ConnectSDK.Common.csproj" Version="[2.0,3.0)" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\ConnectSDK.Common\ConnectSDK.Common.csproj" Version="[1.1.5,2.0)" />
-  </ItemGroup>
-
+ 
 </Project>

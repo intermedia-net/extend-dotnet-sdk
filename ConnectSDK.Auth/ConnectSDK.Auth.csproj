@@ -1,17 +1,15 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <TargetFramework>net8.0</TargetFramework>
     <NuspecFile>Intermedia.SDK.Auth.nuspec</NuspecFile>
     <NuspecProperties>version=$(PackageVersion);configuration=$(Configuration)</NuspecProperties>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="IdentityModel" Version="5.2.0" />
-    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.13.1" />
-  </ItemGroup>
-
-  <ItemGroup>
+    
+    <PackageReference Include="Duende.IdentityModel" Version="7.0.0" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="8.8.0" />
     <ProjectReference Include="..\ConnectSDK.Common\ConnectSDK.Common.csproj" />
   </ItemGroup>
 

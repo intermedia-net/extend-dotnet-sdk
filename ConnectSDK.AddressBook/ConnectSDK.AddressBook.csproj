@@ -1,11 +1,12 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <TargetFramework>net8.0</TargetFramework>
     <NuspecFile>Intermedia.SDK.AddressBook.nuspec</NuspecFile>
     <NuspecProperties>version=$(PackageVersion);configuration=$(Configuration)</NuspecProperties>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="System.Text.Json" Version="[5.0.2,6.0.0)" />
-    <ProjectReference Include="..\ConnectSDK.Common\ConnectSDK.Common.csproj" Version="[1.0.1,2.0)" />
+    
+    <PackageReference Include="System.Text.Json" Version="9.0.4" />
+    <ProjectReference Include="..\ConnectSDK.Common\ConnectSDK.Common.csproj" Version="[2.0,3.0)" />
   </ItemGroup>
 </Project>
